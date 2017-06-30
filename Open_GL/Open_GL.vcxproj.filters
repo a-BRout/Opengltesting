@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{a4ab58b2-e273-4f03-99f4-7c3f90674ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{8fabfc83-6e89-4741-8000-726fedb31b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{89d9e92f-a000-41c9-a1f9-d00693a43549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Init">
+      <UniqueIdentifier>{3fb7c2c4-5226-4205-bcfe-a829b79a8354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{cb7db7cf-2e12-43d8-8e31-2c5b82713e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Models">
+      <UniqueIdentifier>{709e125b-1d78-4c63-ae67-364b16ea6645}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader_Manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Init_GLEW.cpp">
+      <Filter>Core\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="Init_GLUT.cpp">
+      <Filter>Core\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models.cpp">
+      <Filter>Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models_Manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Quad.cpp">
+      <Filter>Rendering\Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Vertex_Shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Fragment_Shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader_Manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowInfo.h">
+      <Filter>Core\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="ContextInfo.h">
+      <Filter>Core\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBufferInfo.h">
+      <Filter>Core\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="Init_GLEW.h">
+      <Filter>Core\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="Init_GLUT.h">
+      <Filter>Core\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="IListener.h">
+      <Filter>Core\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexFormat.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameObject.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models.h">
+      <Filter>Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models_Manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad.h">
+      <Filter>Rendering\Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
